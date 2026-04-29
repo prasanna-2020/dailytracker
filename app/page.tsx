@@ -178,7 +178,7 @@ export default function Home() {
 
             <button
               onClick={() => setDark(!dark)}
-              style={btn}
+              style={darkBtn}
             >
               {dark ? '☀️' : '🌙'}
             </button>
